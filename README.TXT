@@ -17,3 +17,11 @@ question 2: there is a balance of 0 after printing a ticket
 question 3: integrer number too large, no refunds, even if the balance isn't enough it prints a ticket anyway
 question 5: the "cents" value is different (meaning that the price value is different)
 question 7: yes it does. the correct order would be "visibility modifier", "type" and "variable name". the correct way to write it would then be "public class TicketMachine". when instead compiling "class public TicketMachine", BlueJ detects an error.
+question 8: it is indeed possible to leave out the word "public" from the outer wrapper of the TicketMachine class without having any errors
+question 9: an error is detected when removing "class"
+question 12: int /Student/ Server
+question 13: type and variable name
+question 14: 
+question 15: changing the order of "private int price" in any way will cause an error
+question 16: it IS necessary to always put a semicolon at the end of a field declaration, otherwise an error will appear
+question 17: "private int status;"
