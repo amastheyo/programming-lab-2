@@ -20,8 +20,15 @@ question 7: yes it does. the correct order would be "visibility modifier", "type
 question 8: it is indeed possible to leave out the word "public" from the outer wrapper of the TicketMachine class without having any errors
 question 9: an error is detected when removing "class"
 question 12: int /Student/ Server
-question 13: type and variable name
+question 13: alive/ tutor/ game
 question 14: 
 question 15: changing the order of "private int price" in any way will cause an error
 question 16: it IS necessary to always put a semicolon at the end of a field declaration, otherwise an error will appear
 question 17: "private int status;"
+question 18: it belongs to the Student class
+question 19: two parameters
+question 20: yes. by checking the source code.
+question 21: pet=name;
+question 23: the method name 
+question 24: "How much money does the customer have?"
+question 25: if the name getBalance is changed to getAmount, the return statement doesn't need to be modified for the code to be properly compiled. the accessor field relies on the name of the field associated with it, which would be "private int balance;"
