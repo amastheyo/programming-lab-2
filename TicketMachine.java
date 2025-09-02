@@ -40,7 +40,7 @@ public class TicketMachine
      */
     public int getPrice()
     {
-        
+        return price;
     }
 
     /**
