@@ -32,4 +32,7 @@ question 21: pet=name;
 question 23: the method name 
 question 24: "How much money does the customer have?"
 question 25: if the name getBalance is changed to getAmount, the return statement doesn't need to be modified for the code to be properly compiled. the accessor field relies on the name of the field associated with it, which would be "private int balance;"
-question 27:
+question 27: error found in class
+question 28: different types (int and void respectively) , the body of printTicket is much longer
+question 29: no, they do not have return statements, since they are void methods
+question 31: 
