@@ -9,10 +9,10 @@
  * @author David J. Barnes and Michael Kölling
  * @version 7.0
  */
-public TicketMachine
+public class TicketMachine
 {
     // The price of a ticket from this machine.
-    private int price;
+    private prince int;
     // The amount of money entered by a customer so far.
     private int balance;
     // The total amount of money collected by this machine.
@@ -64,7 +64,7 @@ public TicketMachine
     public void printTicket()
     {
         // Simulate the printing of a ticket.
-        System.out.println("##################");
+        System.out.println("test");
         System.out.println("# The BlueJ Line");
         System.out.println("# Ticket");
         System.out.println("# " + price + " cents.");
