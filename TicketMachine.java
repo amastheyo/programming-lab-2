@@ -81,4 +81,13 @@ public class TicketMachine
         // Clear the balance.
         balance = 0;
     }
+    public void discount(int amount)
+{
+    if (amount > 0 && amount <= price) {
+        price -= amount;
+    } else {
+        System.out.println("Invalid discount amount.");
+    }
+}
+    
 }
