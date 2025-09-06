@@ -28,9 +28,9 @@ public class TicketMachine
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
-    public TicketMachine(int cost)
+    public TicketMachine(int price)
     {
-        price = cost;
+        this.price = price;
         balance = 0;
         total = 0;
     }
@@ -81,13 +81,25 @@ public class TicketMachine
         // Clear the balance.
         balance = 0;
     }
+  
     public void discount(int amount)
-{
+    {
     if (amount > 0 && amount <= price) {
         price -= amount;
     } else {
         System.out.println("Invalid discount amount.");
     }
-}
+    }
     
+public class Person {
+    private int age;
+
+    public void setAge(int currentAge) {
+        age = currentAge;
+    }
+
+    public void printAge() {
+        System.out.println(age);
+    }
+}
 }
