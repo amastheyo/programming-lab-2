@@ -73,4 +73,22 @@ question 36:
 if i dont use "this." and keep price = price;, then the price field stays at 0.
 for example, if i make a new TicketMachine with, for example, new TicketMachine(50);, the inspector will show price = 0 instead of 50.
 this happens because the assignment only affects the parameter, not the field.
+---------------
+question 37:
+it will print "My cat has green eyes."
+----------------
+question 38:
+public void prompt()
+    {
+        System.out.println("Please insert the correct amount of money.");
+    }
+------------------
+question 39:
+if i added quotes around the word price, it would print the word "price" instead of giving the value of the variable
+------------------
+question 40:
+similar to question 39, meaning that adding quotes would print the word itself of a value, the difference being that ("# price cents."); uses a static string, whereas the previous one joins 3 strings together
+------------------
+question 42:
+
 
