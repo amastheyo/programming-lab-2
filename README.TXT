@@ -35,21 +35,42 @@ question 25: if the name getBalance is changed to getAmount, the return statemen
 question 27: error found in class
 question 28: different types (int and void respectively) , the body of printTicket is much longer
 question 29: no, they do not have return statements, since they are void methods
-question 31: /**
+--------------------
+question 31: 
  * Increase score by the given number of points.
  */
 public void increaseScore(int points)
 {
     score += points;
 }
+-------------------
 question 32: yes, it is a mutator object because it modifies the "credits field" by adding "additionalPoints"
+-------------------
 question 33: 
     public void discount(int amount)
 {
     if (amount > 0 && amount <= price) {
         price -= amount;
     } else {
-        System.out.println("Invalid discount amount.");
+        System.out.println("Invalid discount amount."); // this way, the user isn't able to print a ticket if they have less than the required amount of money
     }
-quesation 34: 
+-----------------
+question 34: 
+public class Person {
+    private int age; // field
+
+    public void setAge(int currentAge) {  // setter method
+        age = currentAge;
+    }
+}
+-----------------
+question 35:
+public void setAlive(boolean alive) {
+    this.alive = alive;
+}
+----------------
+question 36: 
+if i dont use "this." and keep price = price;, then the price field stays at 0.
+for example, if i make a new TicketMachine with, for example, new TicketMachine(50);, the inspector will show price = 0 instead of 50.
+this happens because the assignment only affects the parameter, not the field.
 
